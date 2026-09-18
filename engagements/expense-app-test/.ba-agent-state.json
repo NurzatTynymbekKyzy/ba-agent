@@ -2,8 +2,8 @@
   "confluencePages": {
     "983042": {
       "role": "workshopPage",
-      "lastSyncedVersion": 2,
-      "lastSyncedAt": "2026-09-18T09:02:44.257Z"
+      "lastSyncedVersion": 3,
+      "lastSyncedAt": "2026-09-18T12:02:30.000Z"
     },
     "851970": {
       "role": "userStoriesPage",
@@ -77,5 +77,15 @@
       "US-2",
       "US-3"
     ]
-  }
+  },
+  "changeLog": [
+    {
+      "detectedAt": "2026-09-18T12:02:30.000Z",
+      "page": "983042",
+      "fromVersion": 2,
+      "toVersion": 3,
+      "delta": "Added requirement WS-8 (bright red UI background) as a new 'Additional Requirement' section.",
+      "resolvedBy": "BA (direct instruction, no conflict to review)"
+    }
+  ]
 }
