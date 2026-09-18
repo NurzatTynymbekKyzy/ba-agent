@@ -8,6 +8,7 @@ Turn a short client discovery workshop into three things, in order: validated re
 
 ## Pipeline (see skills/ for each stage)
 
+0. `onboarding-setup` — once per machine, confirm Confluence/JIRA/GitHub/Vercel access already exists (never asks for secrets directly); once per new engagement, collect identifiers into `connections.json`.
 1. `requirements-brief-builder` — synthesize raw discovery material into one requirements brief (only needed if the workshop material is scattered across multiple pages rather than one clean page).
 2. `confluence-workshop-req-review` — analyze requirement quality (completeness, conflicts, gaps), get BA validation, update Confluence. **Gate A.**
 3. `requirements-to-backlog` — turn validated requirements into user stories (Confluence) and epics/stories (JIRA), INVEST-checked. **Gate B** before anything is written to JIRA.
