@@ -1,0 +1,8 @@
+# secrets / local env
+.env
+.env.*
+*.token
+
+# engagement working state (each engagement's own secrets/config should not leak into git history if sensitive later)
+engagements/*/node_modules/
+engagements/*/.next/
