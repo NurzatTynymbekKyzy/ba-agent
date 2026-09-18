@@ -1,0 +1,17 @@
+{
+  "confluencePages": {
+    "983042": {
+      "role": "workshopPage",
+      "lastSyncedVersion": 2,
+      "lastSyncedAt": "2026-09-18T09:02:44.257Z"
+    }
+  },
+  "openFollowUps": [
+    "No requirement for what happens after a manager rejects a report.",
+    "Exact $500 boundary condition undefined.",
+    "No NFRs beyond business-hours availability (security/retention for financial data not addressed).",
+    "No error/exception handling requirements defined.",
+    "No approval audit trail/history requirement.",
+    "Payment processing integration target system not named."
+  ]
+}

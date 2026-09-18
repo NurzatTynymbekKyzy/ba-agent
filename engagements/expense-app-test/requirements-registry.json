@@ -1,0 +1,53 @@
+[
+  {
+    "id": "WS-1",
+    "text": "Employees can submit an expense report with an amount, a category, and an attached receipt image.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  },
+  {
+    "id": "WS-2",
+    "text": "Reports under $500 are auto-approved without manager review.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  },
+  {
+    "id": "WS-3",
+    "text": "Reports over $500 require manager approval before payment is processed.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "superseded",
+    "supersededBy": "WS-4",
+    "note": "Contradicted WS-4 on approval composition for reports over $500. Resolved in favor of WS-4 by the BA on 2026-09-18 during Gate A review; flagged for client confirmation at next check-in."
+  },
+  {
+    "id": "WS-4",
+    "text": "Reports over $500 require both manager and finance admin approval before payment is processed.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  },
+  {
+    "id": "WS-5",
+    "text": "Managers can see all pending reports from their direct reports in a single list.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  },
+  {
+    "id": "WS-6",
+    "text": "The system should be available during normal business hours.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  },
+  {
+    "id": "WS-7",
+    "text": "Finance admin should be able to export a monthly report of all approved expenses as a CSV file.",
+    "sourcePage": "983042",
+    "sourceVersion": 2,
+    "status": "active"
+  }
+]
