@@ -55,5 +55,13 @@
     "sourceVersion": 2,
     "status": "active",
     "coveredBy": "US-5"
+  },
+  {
+    "id": "WS-8",
+    "text": "The prototype/demo UI background must be bright red (#FF0000).",
+    "sourcePage": "983042",
+    "sourceVersion": 3,
+    "status": "active",
+    "note": "UI/demo styling requirement added directly by the BA post-workshop (not from the original client session) \u2014 used to test the change-detection flow live."
   }
 ]
