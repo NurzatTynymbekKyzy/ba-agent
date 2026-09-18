@@ -4,14 +4,16 @@
     "text": "Employees can submit an expense report with an amount, a category, and an attached receipt image.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-1"
   },
   {
     "id": "WS-2",
     "text": "Reports under $500 are auto-approved without manager review.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-2"
   },
   {
     "id": "WS-3",
@@ -27,27 +29,31 @@
     "text": "Reports over $500 require both manager and finance admin approval before payment is processed.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-3"
   },
   {
     "id": "WS-5",
     "text": "Managers can see all pending reports from their direct reports in a single list.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-4"
   },
   {
     "id": "WS-6",
     "text": "The system should be available during normal business hours.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-6"
   },
   {
     "id": "WS-7",
     "text": "Finance admin should be able to export a monthly report of all approved expenses as a CSV file.",
     "sourcePage": "983042",
     "sourceVersion": 2,
-    "status": "active"
+    "status": "active",
+    "coveredBy": "US-5"
   }
 ]

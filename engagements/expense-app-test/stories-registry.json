@@ -1,0 +1,74 @@
+[
+  {
+    "storyId": "US-1",
+    "title": "Submit an expense report",
+    "requirementIds": ["WS-1"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-1",
+    "jiraKey": "BAWT2-14",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  },
+  {
+    "storyId": "US-2",
+    "title": "Auto-approve reports under $500",
+    "requirementIds": ["WS-2"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-2",
+    "jiraKey": "BAWT2-15",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  },
+  {
+    "storyId": "US-3",
+    "title": "Manager + finance admin approval for reports over $500",
+    "requirementIds": ["WS-4"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-3",
+    "jiraKey": "BAWT2-16",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  },
+  {
+    "storyId": "US-4",
+    "title": "Manager views pending reports from direct reports",
+    "requirementIds": ["WS-5"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-4",
+    "jiraKey": "BAWT2-17",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  },
+  {
+    "storyId": "US-5",
+    "title": "Finance admin exports monthly CSV of approved expenses",
+    "requirementIds": ["WS-7"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-5",
+    "jiraKey": "BAWT2-18",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  },
+  {
+    "storyId": "US-6",
+    "title": "System available during business hours",
+    "requirementIds": ["WS-6"],
+    "confluencePageId": "851970",
+    "confluenceAnchor": "US-6",
+    "jiraKey": "BAWT2-19",
+    "status": "active",
+    "inPrototype": false,
+    "prototypeRoute": null,
+    "builtAtCommit": null
+  }
+]

@@ -4,14 +4,32 @@
       "role": "workshopPage",
       "lastSyncedVersion": 2,
       "lastSyncedAt": "2026-09-18T09:02:44.257Z"
+    },
+    "851970": {
+      "role": "userStoriesPage",
+      "lastSyncedVersion": 1,
+      "lastSyncedAt": "2026-09-18T09:32:00.000Z"
     }
   },
+  "jiraIssues": {
+    "BAWT2-10": { "role": "epic", "title": "Expense Submission" },
+    "BAWT2-11": { "role": "epic", "title": "Approval Workflow" },
+    "BAWT2-12": { "role": "epic", "title": "Finance Reporting" },
+    "BAWT2-13": { "role": "epic", "title": "Platform" },
+    "BAWT2-14": { "role": "story", "storyId": "US-1", "parent": "BAWT2-10" },
+    "BAWT2-15": { "role": "story", "storyId": "US-2", "parent": "BAWT2-11" },
+    "BAWT2-16": { "role": "story", "storyId": "US-3", "parent": "BAWT2-11" },
+    "BAWT2-17": { "role": "story", "storyId": "US-4", "parent": "BAWT2-11" },
+    "BAWT2-18": { "role": "story", "storyId": "US-5", "parent": "BAWT2-12" },
+    "BAWT2-19": { "role": "story", "storyId": "US-6", "parent": "BAWT2-13" }
+  },
   "openFollowUps": [
-    "No requirement for what happens after a manager rejects a report.",
-    "Exact $500 boundary condition undefined.",
+    "No requirement for what happens after a manager rejects a report. (carried into US-3 as an open item)",
+    "Exact $500 boundary condition undefined. (carried into US-2 as an open item)",
     "No NFRs beyond business-hours availability (security/retention for financial data not addressed).",
     "No error/exception handling requirements defined.",
     "No approval audit trail/history requirement.",
-    "Payment processing integration target system not named."
+    "Payment processing integration target system not named.",
+    "US-6 has no defined business hours / SLA — carried into JIRA as an INVEST FAIL (not Estimable/Testable as written)."
   ]
 }
