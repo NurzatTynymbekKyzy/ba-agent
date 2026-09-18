@@ -5,5 +5,11 @@
   "workshopPage": {
     "id": "983042",
     "url": "https://anarbilmazhinova.atlassian.net/wiki/spaces/~5fa60dfe7cfc240071de1a0d/pages/983042/TEST+Discovery+Workshop+Expense+Approval+App"
-  }
+  },
+  "userStoriesPage": {
+    "id": "851970",
+    "url": "https://anarbilmazhinova.atlassian.net/wiki/spaces/~5fa60dfe7cfc240071de1a0d/pages/851970"
+  },
+  "prototypeBranch": "prototype/expense-app-test",
+  "vercelProject": null
 }
