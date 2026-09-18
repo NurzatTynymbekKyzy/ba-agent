@@ -12,16 +12,52 @@
     }
   },
   "jiraIssues": {
-    "BAWT2-10": { "role": "epic", "title": "Expense Submission" },
-    "BAWT2-11": { "role": "epic", "title": "Approval Workflow" },
-    "BAWT2-12": { "role": "epic", "title": "Finance Reporting" },
-    "BAWT2-13": { "role": "epic", "title": "Platform" },
-    "BAWT2-14": { "role": "story", "storyId": "US-1", "parent": "BAWT2-10" },
-    "BAWT2-15": { "role": "story", "storyId": "US-2", "parent": "BAWT2-11" },
-    "BAWT2-16": { "role": "story", "storyId": "US-3", "parent": "BAWT2-11" },
-    "BAWT2-17": { "role": "story", "storyId": "US-4", "parent": "BAWT2-11" },
-    "BAWT2-18": { "role": "story", "storyId": "US-5", "parent": "BAWT2-12" },
-    "BAWT2-19": { "role": "story", "storyId": "US-6", "parent": "BAWT2-13" }
+    "BAWT2-10": {
+      "role": "epic",
+      "title": "Expense Submission"
+    },
+    "BAWT2-11": {
+      "role": "epic",
+      "title": "Approval Workflow"
+    },
+    "BAWT2-12": {
+      "role": "epic",
+      "title": "Finance Reporting"
+    },
+    "BAWT2-13": {
+      "role": "epic",
+      "title": "Platform"
+    },
+    "BAWT2-14": {
+      "role": "story",
+      "storyId": "US-1",
+      "parent": "BAWT2-10"
+    },
+    "BAWT2-15": {
+      "role": "story",
+      "storyId": "US-2",
+      "parent": "BAWT2-11"
+    },
+    "BAWT2-16": {
+      "role": "story",
+      "storyId": "US-3",
+      "parent": "BAWT2-11"
+    },
+    "BAWT2-17": {
+      "role": "story",
+      "storyId": "US-4",
+      "parent": "BAWT2-11"
+    },
+    "BAWT2-18": {
+      "role": "story",
+      "storyId": "US-5",
+      "parent": "BAWT2-12"
+    },
+    "BAWT2-19": {
+      "role": "story",
+      "storyId": "US-6",
+      "parent": "BAWT2-13"
+    }
   },
   "openFollowUps": [
     "No requirement for what happens after a manager rejects a report. (carried into US-3 as an open item)",
@@ -30,6 +66,16 @@
     "No error/exception handling requirements defined.",
     "No approval audit trail/history requirement.",
     "Payment processing integration target system not named.",
-    "US-6 has no defined business hours / SLA — carried into JIRA as an INVEST FAIL (not Estimable/Testable as written)."
-  ]
+    "US-6 has no defined business hours / SLA \u2014 carried into JIRA as an INVEST FAIL (not Estimable/Testable as written)."
+  ],
+  "prototype": {
+    "branch": "prototype/expense-app-test",
+    "lastBuiltCommit": "19717fd",
+    "lastBuiltAt": "2026-09-18T10:05:00.000Z",
+    "storiesInScope": [
+      "US-1",
+      "US-2",
+      "US-3"
+    ]
+  }
 }

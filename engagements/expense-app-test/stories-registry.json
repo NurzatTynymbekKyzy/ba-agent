@@ -7,9 +7,9 @@
     "confluenceAnchor": "US-1",
     "jiraKey": "BAWT2-14",
     "status": "active",
-    "inPrototype": false,
-    "prototypeRoute": null,
-    "builtAtCommit": null
+    "inPrototype": true,
+    "prototypeRoute": "/submit",
+    "builtAtCommit": "19717fd"
   },
   {
     "storyId": "US-2",
@@ -19,9 +19,9 @@
     "confluenceAnchor": "US-2",
     "jiraKey": "BAWT2-15",
     "status": "active",
-    "inPrototype": false,
-    "prototypeRoute": null,
-    "builtAtCommit": null
+    "inPrototype": true,
+    "prototypeRoute": "/submit",
+    "builtAtCommit": "19717fd"
   },
   {
     "storyId": "US-3",
@@ -31,9 +31,9 @@
     "confluenceAnchor": "US-3",
     "jiraKey": "BAWT2-16",
     "status": "active",
-    "inPrototype": false,
-    "prototypeRoute": null,
-    "builtAtCommit": null
+    "inPrototype": true,
+    "prototypeRoute": "/approvals",
+    "builtAtCommit": "19717fd"
   },
   {
     "storyId": "US-4",
